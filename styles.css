@@ -13,6 +13,7 @@ header, footer, main > section {
 .content {
     max-width: 1200px;
     margin: 30px auto;
+    padding: 0 30px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -39,6 +40,7 @@ h1 {
 p {
     font-size: 18px;
     font-weight: 400;
+    color: #1F2937;
 }
 
 #branding {
@@ -62,6 +64,86 @@ nav a {
 }
 
 #tagline-img {
-    max-width: 550px;
+    max-width: 450px;
     height: auto;
+}
+
+#tagline-text {
+    max-width: 450px;
+}
+
+#tagline-text > * {
+    margin-bottom: 15px;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+.solid {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    
+}
+
+#spotlight .content {
+    flex-direction: column;
+    align-items: center;
+}
+
+#spotlight-gallery {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.spotlight-article {
+    width: 200px;
+}
+
+.spotlight-article p {
+    text-align: center;
+}
+
+.spotlight-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+#testamonials {
+    background-color: #E5E7EB;
+}
+
+.testamonial {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.quote-attribution {
+    text-align: right;
 }
