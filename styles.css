@@ -13,7 +13,6 @@ header, footer, main > section {
 .content {
     max-width: 1200px;
     margin: 30px auto;
-    padding: 0 30px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -146,4 +145,40 @@ h2 {
 
 .quote-attribution {
     text-align: right;
+}
+
+#call-to-action {
+    background-color: #3882F6;
+    padding: 40px 60px;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#call-to-action h3 {
+    color: #F9FAF8;
+}
+
+#call-to-action p {
+    color: #E5E7EB;
+}
+
+.button.outline {
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+}
+
+footer {
+    background-color: #1F2937;
+    padding: 15px 0;
+}
+
+footer .content {
+    justify-content: center;
+}
+
+#copyright {
+    font-size: 16px;
+    font-weight: 300;
+    color:#F9FAF8;
 }
